@@ -10,7 +10,7 @@ interface IDisplayUsersProps {
 }
 
 
-const DisplayUsers:FC <IDisplayUsersProps> = ({contactsInfo,setContactsInfo}) => {
+const DisplayContacts:FC <IDisplayUsersProps> = ({contactsInfo,setContactsInfo}) => {
 
 
   const deleteUser = (id:number):void => {
@@ -58,4 +58,4 @@ const DisplayUsers:FC <IDisplayUsersProps> = ({contactsInfo,setContactsInfo}) =>
   )
 }
 
-export default DisplayUsers
+export default DisplayContacts

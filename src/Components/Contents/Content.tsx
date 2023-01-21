@@ -1,5 +1,5 @@
 import React, {FC, useState } from 'react'
-import DisplayUsers from './DisplayUsers'
+import DisplayContacts from './DisplayContacts'
 import InputForm from './InputForm'
 import "./Content.css"
 
@@ -23,7 +23,7 @@ const Content:FC = () => {
   return (
     <section>
       <InputForm {...inputFormProps} />
-      <DisplayUsers contactsInfo ={contactsInfo} setContactsInfo={setContactsInfo} />
+      <DisplayContacts contactsInfo ={contactsInfo} setContactsInfo={setContactsInfo} />
     </section>
   )
 }
